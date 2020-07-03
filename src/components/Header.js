@@ -1,23 +1,13 @@
 import React from "react";
-import logo from '../logo.svg';
+import "../styles/Header.css"
 
 function Header() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  );
+    <div className="header">
+       <h1>Employee Directory</h1>
+       <p>Use the search box to narrow your results or click on carrots to filter.</p>
+    </div>
+  )
 }
 
 export default Header;
