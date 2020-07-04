@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import DataTable from "./DataTable";
 import Navbar from "./Navbar";
 import API from "../utilities/API";
 import "../styles/DataDomain.css";
@@ -103,7 +104,7 @@ const DataDomain = () => {
     <ThemeContext.Provider
       value={{ developerState, handleSearchChange, handleOrder }}
     >
-      <Nav />
+      <Navbar />
       <div className="data-domain">
         {developerState.filteredUsers.length > 0 ? <DataTable /> : <div></div>}
       </div>
