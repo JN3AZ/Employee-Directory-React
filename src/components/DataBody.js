@@ -42,7 +42,7 @@ const DataBody = () => {
                   </a>
                 </td>
                 <td data-th="DOB" className="align-middle">
-                  {formatDate(dob.date)}
+                  {createDate(dob.date)}
                 </td>
               </tr>
             );
