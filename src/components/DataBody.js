@@ -1,9 +1,9 @@
-import React, { useData } from "react";
+import React, {useContext} from "react";
 import "../styles/DataBody.css";
 import ThemeContext from "../utilities/ThemeContext";
 
 const DataBody = () => {
-  const data = useData(ThemeContext);
+  const context = useContext(ThemeContext);
 
   function createDate(date) {
     const dateArray = date.split("-");

@@ -3,7 +3,7 @@ import DataTable from "./DataTable";
 import Navbar from "./Navbar";
 import API from "../utilities/API";
 import "../styles/DataDomain.css";
-import ThemeContext from "../utils/ThemeContext";
+import ThemeContext from "../utilities/ThemeContext";
 
 const DataDomain = () => {
   const [developerState, setDeveloperState] = useState({

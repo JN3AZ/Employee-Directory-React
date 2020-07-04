@@ -1,10 +1,10 @@
-import React, { useData } from "react";
+import React, {useContext} from "react";
 import DataBody from "./DataBody";
 import "../styles/DataTable.css";
 import ThemeContext from "../utilities/ThemeContext";
 
 const DataTable = () => {
-  const data = useData(ThemeContext);
+  const context = useContext(ThemeContext);
 
   return (
     <div className="datatable mt-5">

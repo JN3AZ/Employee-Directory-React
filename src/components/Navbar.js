@@ -1,4 +1,5 @@
 import React from "react";
+import SearchName from "./SearchName.js";
 import "../styles/Navbar.css";
 
 function Navbar() {

@@ -1,9 +1,9 @@
-import React, {useData} from "react";
+import React, {useContext} from "react";
 import "../styles/SearchName.css";
-import ThemeContext from "../utils/ThemeContext";
+import ThemeContext from "../utilities/ThemeContext";
 
 const SearchName = () => {
-  const data = useData(ThemeContext);
+  const context = useContext(ThemeContext);
 
   return (
     <div className="searchbox">
