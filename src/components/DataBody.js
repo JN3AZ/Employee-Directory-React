@@ -41,7 +41,7 @@ const DataBody = () => {
                     {email}
                   </a>
                 </td>
-                <td data-th="DOB" className="align-middle">
+                <td data-th="dob" className="align-middle">
                   {createDate(dob.date)}
                 </td>
               </tr>
